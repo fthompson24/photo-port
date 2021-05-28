@@ -1,8 +1,5 @@
-import React from 'react';
-
-function capitalizeFirstLetter(string) {
-    return string.charAt(0).toUpperCase() + string.slice(1);
-};
+import React from "react";
+import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav() {
 
